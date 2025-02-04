@@ -15,8 +15,8 @@ docker run -p 8080:8080 receipt-processor
 📌 API Endpoints
 
 1️⃣ Submit a Receipt
-	•	URL: POST /receipts/process
-	•	Example Request:
+• URL: POST /receipts/process
+• Example Request:
 {
   "retailer": "Target",
   "purchaseDate": "2022-01-01",
@@ -44,7 +44,7 @@ docker run -p 8080:8080 receipt-processor
 Example Response:
 { "id": "some-uuid-value" }
 2️⃣ Get Receipt Points
-	•	URL: GET /receipts/{id}/points
-	•	Example Response:
+• URL: GET /receipts/{id}/points
+• Example Response:
 { "points": 28 }
 
